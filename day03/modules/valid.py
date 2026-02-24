@@ -12,7 +12,7 @@ def validEmail(e):
     pattern = r"^[a-zA-Z0-9]([\w\.-]*[a-zA-Z0-9])?@[a-zA-Z0-9]([\w\.-]*[a-zA-Z0-9])?\.[a-zA-Z]{2,6}$"
     if re.match(pattern, e.strip()):
         return True
-    return "Invalid Email format! (e.g., user@example.com)\n"
+    return "Invalid Email format! (ex: user@example.com)\n"
 
 
 def confirmPassword(p1, p2):

@@ -55,8 +55,12 @@ while True:
         success = Auth.register(
             first_name_input, last_name_input, email_input, password_input, mobile_input
         )
-        display_user_data(first_name_input, last_name_input, email_input, mobile_input)
         if success:
+            code = input("Enter activation code: ")
+            Auth.activate(email_input, code)
+            display_user_data(
+                first_name_input, last_name_input, email_input, mobile_input
+            )
             print(f"Success! Account created for {first_name_input}")
         continue
 

@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "first_name": "ahmed",
+        "last_name": "salah",
+        "email": "ahmed@gmail.com",
+        "password": "A@213123123123123@@@@adsadasd",
+        "mobile": "01225246488",
+        "is_active": true,
+        "activation_code": "498cbd79-f3b1-4212-9ab1-7c1ffe2709bc"
+    }
+]
