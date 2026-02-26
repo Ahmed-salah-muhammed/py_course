@@ -17,8 +17,10 @@ def generateId():
     return id
 
 
-if __name__ == "__main__":
-    print(generateId())
+# if __name__ == "__main__":
+#     print(generateId())
+
+
 # users_db = []
 # def register(first_name, last_name, email, password, phone):
 #     user_data = {
@@ -52,7 +54,7 @@ def register(first_name, last_name, email, password, mobile):
 
     for user in users:
         if user["email"] == email:
-            print("Email already exists!")
+            print("Email already exists")
             return False
 
     activation_code = str(uuid.uuid4())
@@ -90,7 +92,7 @@ def login(email, password):
         if user["email"] == email.strip():
 
             if not user["is_active"]:
-                print("Account not activated!")
+                print("Account not activated")
                 return False
 
             if user["password"] == password:

@@ -7,5 +7,32 @@
         "target": "5000000",
         "start_date": "2025-06-08",
         "end_date": "2030-8-6"
+    },
+    {
+        "id": 6,
+        "owner_email": "a@gmail.com",
+        "title": "ahmed",
+        "details": "asdasd",
+        "target": "5000",
+        "start_date": "26-5-2",
+        "end_date": "28-6-5"
+    },
+    {
+        "id": 7,
+        "owner_email": "a@gmail.com",
+        "title": "gis",
+        "details": "",
+        "target": "5555",
+        "start_date": "25-5-9",
+        "end_date": "30-5-9"
+    },
+    {
+        "id": 8,
+        "owner_email": "ahmed@gmail.com",
+        "title": "python",
+        "details": "gis",
+        "target": "9000",
+        "start_date": "2025-9-8",
+        "end_date": "2032-5-9"
     }
 ]

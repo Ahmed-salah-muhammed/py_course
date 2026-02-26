@@ -22,8 +22,8 @@ def save_projects(projects):
 def create_project(owner_email, title, details, target, start_date, end_date):
 
     try:
-        s_d = datetime.strptime(start_date, "%y-%m-%d")
-        e_d = datetime.strptime(end_date, "%y-%m-%d")
+        s_d = datetime.strptime(start_date, "%Y-%m-%d")
+        e_d = datetime.strptime(end_date, "%Y-%m-%d")
         if e_d <= s_d:
             return False, "End date must be after start date"
     except ValueError:

@@ -69,7 +69,7 @@ while True:
         email = input("enter your Email: ")
         password = input("enter your Password: ")
         if Auth.login(email, password):
-            print(f"✅ Welcome back, {email}!")
+            print(f" Welcome back, {email}")
 
             while True:
                 print("\n--- Project Management Menu ---")
@@ -90,10 +90,10 @@ while True:
                         start_date = input("Start Date (YYYY-MM-DD): ")
                         end_date = input("End Date (YYYY-MM-DD): ")
 
-                        success, msg = projects.create_project(
+                        success, message = projects.create_project(
                             email, title, details, target, start_date, end_date
                         )
-                        print(msg)
+                        print(message)
                         if success:
                             break
 
@@ -103,14 +103,14 @@ while True:
                 elif choice == "3":
                     projects.view_projects()
                     p_id = input("Enter Project ID to edit: ")
-                    success, msg = projects.edit_project(p_id, email)
-                    print(msg)
+                    success, message = projects.edit_project(p_id, email)
+                    print(message)
 
                 elif choice == "4":
                     projects.view_projects()
                     p_id = input("Enter Project ID to delete: ")
-                    success, msg = projects.delete_project(p_id, email)
-                    print(msg)
+                    success, message = projects.delete_project(p_id, email)
+                    print(message)
 
                 elif choice == "5":
                     date_to_search = input("Enter date (YYYY-MM-DD): ")
