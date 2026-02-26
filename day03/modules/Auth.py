@@ -17,8 +17,8 @@ def generateId():
     return id
 
 
-# if __name__ == "__main__":
-#     print(generateId())
+if __name__ == "__main__":
+    print(generateId())
 # users_db = []
 # def register(first_name, last_name, email, password, phone):
 #     user_data = {
@@ -117,5 +117,5 @@ def activate(email, code):
     return False
 
 
-if __name__ == "__main__":
-    pass
+# if __name__ == "__main__":
+#     pass
