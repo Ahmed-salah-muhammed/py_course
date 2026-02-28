@@ -1,4 +1,4 @@
-# 🚀 Python OOP & System Design Project
+# 🚀 ITI Python Course
 
 A structured Python project demonstrating Object-Oriented Programming
 (OOP), file handling, JSON persistence, modular architecture,
@@ -138,27 +138,3 @@ Make sure Python 3.8+ is installed.
 -   Reusable components\
 -   Production-style structure\
 -   Clear naming conventions
-
-------------------------------------------------------------------------
-
-## 🔥 Future Improvements
-
--   Convert Queue to Circular Queue
--   Add password hashing
--   Add logging system
--   Add REST API layer (Flask / FastAPI)
--   Unit testing with pytest
--   Docker support
-
-------------------------------------------------------------------------
-
-## 👨‍💻 Author
-
-Refaay\
-Backend Developer in progress 🚀
-
-------------------------------------------------------------------------
-
-## 📜 License
-
-This project is for educational purposes.
